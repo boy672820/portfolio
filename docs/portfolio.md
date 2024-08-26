@@ -58,7 +58,7 @@ style: |
 
 때문에 암호화된 상태 데이터를 SMS 메시지로 발송합니다. 이후 수집된 SMS 메시지는 에이전트 서버에서 가공하여 MongoDB에 저장합니다.
 
-![w:600 center](../assets/monitoring-example.png)
+![w:600 center](assets/monitoring-example.png)
 
 ---
 
@@ -71,7 +71,7 @@ style: |
  - 작업 대기열을 통해 부하 분산: **과부하로 인한 서버 다운을 방지**
  - 작업을 Redis에서 관리: **서버가 다운되더라도 작업 재처리 가능**
 
-![w:700 center](../assets/monitoring-message-example.png)
+![w:700 center](assets/monitoring-message-example.png)
 
 ---
 
@@ -84,7 +84,7 @@ style: |
  - 대상자 현재 상태와 복지사 모니터링: Attributes 패턴으로 대상자의 상태 데이터를 비교적 쉽게 여러 컬렉션에 분산하여 관리
  - 누적 통계 이용: Bucket 패턴과 Computed 패턴으로 효율적인 쿼리 가능
 
-![w:600 center](../assets/monitoring-mongodb-example.png)
+![w:600 center](assets/monitoring-mongodb-example.png)
 
 ---
 
@@ -110,7 +110,7 @@ style: |
 Github Actions를 통해 메인 브랜치가 업데이트 되면 자동으로 빌드 후 배포할 수 있도록 Github Actions를 설정하였습니다.
 또한 배포가 완료되면 변경사항을 팀원들이 확인할 수 있도록 Slack Incoming WebHooks를 구성하였습니다.
 
-![w:900 center](../assets/cicd-example.png)
+![w:900 center](assets/cicd-example.png)
 
 ---
 
@@ -127,7 +127,7 @@ Github Actions를 통해 메인 브랜치가 업데이트 되면 자동으로 �
    - 기존 배포 방식: 총 21시간 소요
    - 배포 자동화: 6시간 소요
 
-![bg fit right:40%](../assets/cicd-chart.png)
+![bg fit right:40%](assets/cicd-chart.png)
 
 ---
 
@@ -158,7 +158,7 @@ App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서
 
 실제로 Cost Explorer에서 비교해본 결과, EC2에 비해서 AppRunner가 40% 비용 절감을 이루어낼 수 있었습니다.
 
-![bg fit right:40%](../assets/ec2-apprunner-chart.png)
+![bg fit right:40%](assets/ec2-apprunner-chart.png)
 
 ---
 
@@ -174,6 +174,6 @@ App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서
 
 스터디 자료는 사내 개발자분들이 언제든지 참고할 수 있도록 블로그와 깃허브에 개시하였습니다.
 
-![w:400 center](../assets/study-contributors.png)
+![w:400 center](assets/study-contributors.png)
 
 ---
