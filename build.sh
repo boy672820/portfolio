@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npx @marp-team/marp-cli --html pages/portfolio.md -o pages/portfolio.html
+npx @marp-team/marp-cli --html docs/portfolio.md -o docs/portfolio.html
