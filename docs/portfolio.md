@@ -26,6 +26,7 @@ style: |
 1. **오프라인 모니터링 서비스**
 2. **컨테이너 기반 배포 자동화 구축**
 3. **운영 비용 40% 절감했던 사례**
+4. 
 
 
 ###### 이선주 <br />[boy672820@gmail.com][boy672820]
@@ -166,4 +167,4 @@ App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서
 
 스터디 자료는 사내 개발자분들이 언제든지 참고할 수 있도록 블로그와 깃허브에 개시하였습니다.
 
-![w:400 center](assets/study-contributors.png)
+![center](assets/study-contributors.png)
