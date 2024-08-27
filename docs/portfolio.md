@@ -3,7 +3,7 @@ marp: true
 paginate: true
 style: |
   section {
-    font-size: 20px;
+    font-size: 16px;
   }
   img[alt~="center"] {
     display: block;
@@ -49,8 +49,6 @@ style: |
 | 관리 대상자 상태 데이터 수집 | 오프라인 상태를 고려해야 합니다.                             |
 | 상태 데이터 일괄적 수신      | 정해진 시간대에 모든 관리 대상자의 정보를 수집해야 합니다.   |
 | 상태 정보 관리               | 오전 또는 오후 기상자 체크와 긴급 알림 등을 제어해야 합니다. |
-
----
 
 ## [1.1] 오프라인 환경에서 MO 서비스를 이용한 모니터링
 
@@ -101,9 +99,7 @@ style: |
  - 로컬 환경과 프로덕트 환경 불일치로 잦은 에러 발생: 애플리케이션 실행 환경의 일관성을 유지
  - 서버 배포가 번거롭고 시간적 비용 발생: 비교적 쉬운 배포 달성
 
----
-
-## [2.1] 배포 자동화 구축
+<br />
 
 더 나아가 배포 자동화를 통해 개발에 집중할 수 있게 되었습니다.
 
@@ -127,7 +123,7 @@ Github Actions를 통해 메인 브랜치가 업데이트 되면 자동으로 �
    - 기존 배포 방식: 총 21시간 소요
    - 배포 자동화: 6시간 소요
 
-![bg fit right:40%](assets/cicd-chart.png)
+![center](assets/cicd-chart.png)
 
 ---
 
@@ -146,8 +142,6 @@ AWS AppRunner를 도입한 이유는 다음과 같습니다.
  - 웹 서버 설치와 설정 등 필요 없이 API 서비스 자동 구축
  - Github Actions와 연동이 잘되어 있어 ECR을 통한 쉬운 배포 자동화 가능
 
----
-
 ## [3.2] EC2 vs AppRunner 비교
 App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서버가 활성화 되었다고 판단되어 요금이 산정됩니다.
 
@@ -158,15 +152,13 @@ App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서
 
 실제로 Cost Explorer에서 비교해본 결과, EC2에 비해서 AppRunner가 40% 비용 절감을 이루어낼 수 있었습니다.
 
-![bg fit right:40%](assets/ec2-apprunner-chart.png)
+![center](assets/ec2-apprunner-chart.png)
 
 ---
 
 # 4. 사내 스터디 운영
 
 사내 개발자들의 개발 역량과 영감을 주기위해 2022년부터 꾸준히 스터디를 진행해 왔습니다.
-
----
 
 ## [4.1] 스터디 운영
 
@@ -175,5 +167,3 @@ App Runner는 Serverless 특성상 애플리케이션 요청이 처리되면 서
 스터디 자료는 사내 개발자분들이 언제든지 참고할 수 있도록 블로그와 깃허브에 개시하였습니다.
 
 ![w:400 center](assets/study-contributors.png)
-
----

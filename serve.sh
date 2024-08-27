@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npx @marp-team/marp-cli -s ./docs
+npx @marp-team/marp-cli --theme ./docs/a4.css -s ./docs
